@@ -5,11 +5,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+cd working dir
+delete package.lock.json or yarn.lock
+yarn install
+
+yarn add prisma --save-dev
+
+npx prisma init
+
+
+
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
